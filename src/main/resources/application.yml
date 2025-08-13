@@ -1,0 +1,8 @@
+spring:
+  application:
+    name: yummy-words-be
+  threads:
+    virtual:
+      enabled: true
+  profiles:
+    active: ${PROFILE}
